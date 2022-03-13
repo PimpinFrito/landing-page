@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #86878a;
+    font-weight: 500;
+}
+
+
+.top{
+    padding: 0 10%;
+    padding-bottom: 60px;
+    color: #f9faf8;
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    font-size: 18px;
+}
+
+
+.header{
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 60px;
+}
+
+.right-links ul{
+    display: flex;
+    gap:20px;
+    list-style: none;
+    
+}
+
+.logo{
+    font-size: 24px;
+    font-weight:bolder;
+}
+
+.top-content{
+    justify-content: space-evenly;
+    display:flex;   
+    gap:60px;
+}
+.top-text{
+    font-size: 18px;
+    flex:1 1;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.top-h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+.top button{
+    color:white;
+    background-color: #3882f6;
+    border-radius: ;
+    align-self: start;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.image{
+    flex:1;
+    border: solid black;
+    background-color: grey;
+}
+.content{
+    flex:1;
+    gap: 20px;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+    
+
+.cards{
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    gap:30px;
+}
+
+.card{
+    flex:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+
+.card-header{
+    padding-bottom: 5%;
+    font-weight: 900;
+    color:#1F2937;
+    font-size: 36px;
+}
+.card-text{
+    flex:1;
+    text-align: center;
+    font-size: large;
+}
+.cardpic{
+    padding-bottom: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid #3882f6 5px;
+}
+
+.quote-section{
+    font-weight:350;
+    font-size: 40px;
+    font-style: italic;
+    color: #1F2937;
+    flex:1;
+    justify-self:center;
+    padding: 10%;
+    background-color: #E5E7EB;
+}
