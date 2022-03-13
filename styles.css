@@ -134,3 +134,52 @@ body{
     padding: 10%;
     background-color: #E5E7EB;
 }
+
+.callToAction{
+    flex:1;
+    padding: 5% 10%;
+}
+.callToAction-container{
+    justify-content: space-between;
+    flex:1;
+    background-color: #3882f6;
+    padding: 5% 5%;
+    display:flex;
+    border-radius: 15px;
+    gap:30px;
+}
+
+.callToAction-content{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.callToAction-sub{
+    color:
+}
+.callToAction button{
+    border-radius: 15px;
+    font-size: 24px;
+    color:white;
+    align-self: end;
+    background-color: #3882F6;
+    padding: 20px 80px;
+    border: white 5px solid;
+}
+
+.footer{
+    font-size: 30px;
+    display:flex;
+    color: white;
+    background-color: #1f2937;
+    padding: 5% 10%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-text{
+justify-self: center;
+}
