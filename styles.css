@@ -5,11 +5,13 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #86878a;
     font-weight: 500;
+    gap:50px;
 }
 
 
 .top{
     padding: 0 10%;
+    padding-left:5%;
     padding-bottom: 60px;
     color: #f9faf8;
     flex:1;
@@ -44,11 +46,13 @@ body{
 }
 
 .top-content{
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     display:flex;   
     gap:60px;
 }
 .top-text{
+    padding-left: 15%;
     font-size: 18px;
     flex:1 1;
     display:flex;
@@ -76,6 +80,8 @@ body{
 
 .image{
     flex:1;
+    width: 500px;
+    height: 180px;
     border: solid black;
     background-color: grey;
 }
@@ -86,14 +92,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 
 }
     
 
 .cards{
-    height: 250px;
+    flex: auto;
+    flex-wrap: wrap;
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap:30px;
 }
 
@@ -112,18 +120,19 @@ body{
     font-size: 36px;
 }
 .card-text{
-    flex:1;
     text-align: center;
     font-size: large;
 }
 .cardpic{
-    padding-bottom: 50px;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     border-radius: 10px;
     border: solid #3882f6 5px;
 }
-
+img{
+    height:100%;
+    width:100%;
+}
 .quote-section{
     font-weight:350;
     font-size: 40px;
@@ -137,16 +146,15 @@ body{
 
 .callToAction{
     flex:1;
-    padding: 5% 10%;
+    padding: 5% 20%;
 }
 .callToAction-container{
-    justify-content: space-between;
-    flex:1;
+    justify-content: center;
     background-color: #3882f6;
-    padding: 5% 5%;
+    padding: 3% 3%;
     display:flex;
     border-radius: 15px;
-    gap:30px;
+    gap:20px;
 }
 
 .callToAction-content{
@@ -156,9 +164,6 @@ body{
     gap:10px;
     font-size: 24px;
     font-weight: 900;
-}
-.callToAction-sub{
-    color:
 }
 .callToAction button{
     border-radius: 15px;
