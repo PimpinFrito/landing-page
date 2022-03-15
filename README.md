@@ -1,2 +1,2 @@
 # landing-page
-Landing Page
+Simple landing page with a football themeLanding Page
